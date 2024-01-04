@@ -20,4 +20,8 @@ Names the container 'ash-sqlserver'.
 
 In the context of the docker ps command, "ps" stands for "Process Status." The docker ps command is used to display the status of Docker containers, showing information such as the Container ID, names, status, ports, and other details about the running containers on your system. The name "ps" is borrowed from the traditional Unix/Linux command ps used for displaying information about processes.
 
-3. Install Azure Studio
+3. Install Azure Studio , specify the host port 
+
+4. tryign out other rdbms, postgresql
+>>docker run --name postgresql -p 5401:5432 -e POSTGRES_PASSWORD=cvAshwin223344 -d postgres:latest
+
