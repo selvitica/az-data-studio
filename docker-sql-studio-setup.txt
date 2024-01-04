@@ -5,3 +5,11 @@ Cross Platform
 Config with Docker for poc:
 1. Install Docker Desktop with WSL2
 
+>>docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=cvAshwin223344" -p 1401:1433 --name ash-sqlserver -d mcr.microsoft.com/mssql/server:2019-latest
+
+Creates and runs a Docker container based on the Microsoft SQL Server 2019 image.
+Sets the environment variable (-e) ACCEPT_EULA to 'Y' to accept the End-User License Agreement.
+Sets the SQL Server SA (System Administrator) password to 'cvAshwin223344'.
+port forwarding : Maps host port 1401 to container port 1433 (the default port for SQL Server).
+Names the container 'ash-sqlserver'.
+-d Runs the container in the background as a detached process.
