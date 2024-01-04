@@ -24,4 +24,5 @@ In the context of the docker ps command, "ps" stands for "Process Status." The d
 
 4. tryign out other rdbms, postgresql
 >>docker run --name postgresql -p 5401:5432 -e POSTGRES_PASSWORD=cvAshwin223344 -d postgres:latest
-
+username : postgres
+install PostgreSQL extension
