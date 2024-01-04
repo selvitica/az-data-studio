@@ -9,6 +9,7 @@ Config with Docker for poc:
 
 Creates and runs a Docker container based on the Microsoft SQL Server 2019 image.
 Sets the environment variable (-e) ACCEPT_EULA to 'Y' to accept the End-User License Agreement.
+username : SA
 Sets the SQL Server SA (System Administrator) password to 'cvAshwin223344'.
 port forwarding : Maps host port 1401 to container port 1433 (the default port for SQL Server).
 Names the container 'ash-sqlserver'.
@@ -18,3 +19,5 @@ Names the container 'ash-sqlserver'.
 >> docker ps
 
 In the context of the docker ps command, "ps" stands for "Process Status." The docker ps command is used to display the status of Docker containers, showing information such as the Container ID, names, status, ports, and other details about the running containers on your system. The name "ps" is borrowed from the traditional Unix/Linux command ps used for displaying information about processes.
+
+3. Install Azure Studio
