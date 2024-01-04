@@ -13,3 +13,8 @@ Sets the SQL Server SA (System Administrator) password to 'cvAshwin223344'.
 port forwarding : Maps host port 1401 to container port 1433 (the default port for SQL Server).
 Names the container 'ash-sqlserver'.
 -d Runs the container in the background as a detached process.
+
+2. Check status using
+>> docker ps
+
+In the context of the docker ps command, "ps" stands for "Process Status." The docker ps command is used to display the status of Docker containers, showing information such as the Container ID, names, status, ports, and other details about the running containers on your system. The name "ps" is borrowed from the traditional Unix/Linux command ps used for displaying information about processes.
