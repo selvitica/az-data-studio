@@ -3,5 +3,5 @@ Born 2018
 Cross Platform
 
 Config with Docker for poc:
-
+1. Install Docker Desktop with WSL2
 
