@@ -26,3 +26,12 @@ In the context of the docker ps command, "ps" stands for "Process Status." The d
 >>docker run --name postgresql -p 5401:5432 -e POSTGRES_PASSWORD=cvAshwin223344 -d postgres:latest
 username : postgres
 install PostgreSQL extension
+
+5. restoring from a bkp
+moving the bkp file from local to docker path
+>>
+PS C:\Users\ashwi> docker cp "C:\Users\ashwi\Videos\2024\Ex_Files_Azure_Data_Studio_EssT\Chapter 2\twotrees_sqlserver.bak" ashwin-sqlserver:/var/opt/mssql/data/twotrees_bkp.bak
+Successfully copied 3.27MB to ashwin-sqlserver:/var/opt/mssql/data/twotrees_bkp.bak
+
+
+
